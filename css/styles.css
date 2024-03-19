@@ -392,7 +392,7 @@ margin-bottom: 72px;
 
 .portfolio-item:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
-.portfolio-list:hover .payment-cover-text{
+.portfolio-item:hover .payment-cover-text{
     transform: translateY(0);
     
     
@@ -542,4 +542,56 @@ font-weight: 400;
     fill: #f4f4fd;
     
     
+}
+
+/*========MODAL==========*/
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    background: rgba(46, 47, 66, 0.4);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.modal{
+    
+width: 408px;
+min-height: 584px;
+border-radius: 4px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    padding: 24px;
+}
+
+.modal-close{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.modal-title{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2e2f42;
+            max-width: 360px;
+            margin-bottom: 16px;
+}
+.modal-form{
+
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #4d5ae5;
+        border-radius: 4px;
+        margin-bottom: 8px;
 }
