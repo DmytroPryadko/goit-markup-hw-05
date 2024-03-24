@@ -349,8 +349,12 @@
             </div>
         </section>
     </main>
-    
-        </body><footer class="footer">
+        </body>
+
+
+
+
+        <footer class="footer">
         <div class="container">
             <div class="footer-logo-div">
                 <a class="footer-logo" href=" ./index.html">Web<span class="footer-studio">Studio</span></a>
@@ -391,11 +395,46 @@
                     </li>
                 </ul>
                </div>
+
+
+               <div class="footer-form">
+                <p class="footer-input-title">Subscribe</p>
+                <form class="footer-form-input">
+            
+                    <label class="footer-input-label">
+                        <input 
+                        type="email" 
+                        name="footer-email" 
+                        class="footer-input" 
+                        placeholder="E-mail">
+                        <button 
+                        type="submit"
+                        class="footer-input-btn">Subscribe 
+                            <svg class="footer-send">
+                            <use href="./images/icons.svg#icon-icon-send" 
+                            width="24" 
+                            height="20">
+                            </use>
+                    </label>
+                    </svg></button>
+                </form>
+               </div>
              </div>
         </footer>
+
+
         <div class="backdrop">
             <div class="modal">
-                <button type="button" class="modal-close">X</button>
+                <button 
+                type="button" 
+                class="modal-close">
+                    <svg class="close">
+                    <use href="./images/icons.svg#icon-close"
+                    width="8" 
+                    height="8">
+                    </use>
+                </svg>
+            </button>
                 <p class="modal-title">Leave your contacts and we will call you back</p>
                 <form class="modal-form">
                   <div class="modal-field">
@@ -465,24 +504,24 @@
                    type="checkbox" 
                    name="privacy" 
                    id="privacy"
-                   class="modal-check"
+                   class="modal-check visually-hidden"
                    required>
-                   <label for="privacy" class="check-text">
-                    <span>
-                        <svg width="10" 
-                            height="18" >
-                            <use 
-                            href="./images/icons.svg#icon-check" ></use>
-                        </svg>
-                    </span> 
-                    <span class="check-text-span"></span>I accept the terms and conditions of the <a href="" class="check-link">Privacy Policy</a></label> 
+                   <label 
+                   for="privacy" 
+                   class="check-text">
+                    <span class="check-text-span">
+                        <svg 
+                        width="10" 
+                        height="18">
+                        <use href="./images/icons.svg#icon-check">
+                        </use>
+                    </svg>
+                </span>I accept the terms and conditions of the <a href="" class="check-link">Privacy Policy</a></label> 
                 </div>
-                <button type="submit">Send</button>
+                <button class="modal-send" type="submit"><span class="send">Send</span></button>
                 </form>
             </div>
-
         </div>
-   
 </body>
 
 </html>
